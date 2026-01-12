@@ -1,0 +1,30 @@
+{
+  "name": "dex-aggregagor-mvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@uniswap/sdk-core": "^3.1.0",
+    "@uniswap/v3-sdk": "^3.9.0",
+    "ethers": "^5.7.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  }
+}

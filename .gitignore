@@ -1,0 +1,98 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.js
+!vitest.config.js
+*.d.ts
+*.js.map
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+.env.production.local
+*.env
+.envrc
+
+# Private keys and sensitive files
+*.key
+*.pem
+private-key*
+secret*
+*.secret
+secrets/
+private/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.vscode-test
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.vitest/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.turbo/
+.npm
+
+# TypeScript
+*.tsbuildinfo
+.node_repl_history
+
+# Package manager files
+*.tgz
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
