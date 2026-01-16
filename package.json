@@ -8,8 +8,6 @@
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
-    "start": "ts-node src/index.ts",
-    "dev": "ts-node-dev src/index.ts",
     "build": "tsc"
   },
   "keywords": [],
